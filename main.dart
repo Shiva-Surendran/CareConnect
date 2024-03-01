@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
+
 void main() {
   runApp(MyApp());
 }
@@ -30,10 +31,10 @@ class _MyAppState extends State<MyApp> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                Icon(Icons.account_circle_rounded,size: 125,),
                 Text(
                   'Welcome!',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 52),
-                ),
+                  style: TextStyle(fontWeight: FontWeight.bold,fontSize: 45) ) ,   
                 SizedBox(
                   height: 50,
                 ),
@@ -104,7 +105,7 @@ class _MyAppState extends State<MyApp> {
                     Text(
                       'Sign Up',
                       style: TextStyle(
-                          color: Color.fromARGB(81, 0, 0, 0),
+                          color: Color.fromARGB(81, 2, 46, 244),
                           fontWeight: FontWeight.bold,
                           fontSize: 18),
                     )
