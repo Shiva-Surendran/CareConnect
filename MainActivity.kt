@@ -75,7 +75,7 @@ fun details() {
 @Composable
 fun app() {
     val navController = rememberNavController()
-    NavHost(navController = navController, startDestination = "FormScreen") {
+    NavHost(navController = navController, startDestination = "details") {
         composable(route = "details") { details() }
         composable(route = "form") { FormScreen() }
     }
